@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM --platform=linux/amd64 ubuntu:22.04
 
 ENV TZ 'Asia/Seoul'
 ENV DEBIAN_FRONTEND noninteractive
